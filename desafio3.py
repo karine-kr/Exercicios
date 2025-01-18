@@ -10,5 +10,5 @@ if media < 5:
     print('"Reprovado", a nota foi de {:.2f}'.format(media))
 elif media >= 5 and media < 7:
     print('"Recuperação", a nota foi de {:.2f}'.format(media))
-elif media >= 7:
+else:
     print('"Aprovado", a nota foi de {:.2f}'.format(media))
