@@ -8,8 +8,8 @@ while True:
             print ('\nBem vindo!!!!!\n')
             break
         else:
-            print('\nLogin não efetuado! Digite novamente os dados.\n')
+            print('\nLogin não efetuado!.\n')
             aux += 1
     else:
-        print('\nUsuário Bloqueado!!!!\n')
+        print('Usuário Bloqueado!!!!\n')
         break

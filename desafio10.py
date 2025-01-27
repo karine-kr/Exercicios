@@ -8,11 +8,11 @@ while True:
         somatorario = sum(notas) 
         media = somatorario / len(notas)
         if media >=7 :
-            print('"Aprovado", a nota foi de {:.2f}'.format(media))
+            print('\n"Aprovado", a média final foi de {:.2f}'.format(media))
         else:
-            print('"Reprovado", a nota foi de {:.2f}'.format(media))
-        novoCalculo = input(("Deseja realizar um novo cálculo? S ou N\n\n"))
-        if novoCalculo == "S":
+            print('\n"Reprovado", a média final foi de {:.2f}'.format(media))
+        novoCalculo = input(('\nDeseja realizar um novo cálculo? Digite "s" para sim ou "n" para não\n\n'))
+        if novoCalculo == "s":
             aux += 1
         else:
             break    
